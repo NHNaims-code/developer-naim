@@ -1,3 +1,6 @@
+#active{
+    background-color: orange;
+}
 @media (max-width: 991px) {
     body {
         height: 100%;
@@ -16,9 +19,13 @@
         visibility: visible;
         position: relative;
     }
+    #menu{
+       font-size:45px;
+    }
     .img-section{
         height: 340px;
         width: 340px;
+        border-radius: 50%;
     }
     .info-section{
         width: 100%;
