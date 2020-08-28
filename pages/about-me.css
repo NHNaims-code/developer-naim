@@ -100,13 +100,13 @@ body::before{
     top: -100px;
     left: 40px;
     /* padding: 0 20%; */
-
+    
 }
 
 .first-row, .second-row{
     display: flex;
-
-
+    
+    
 }
 .scop{
     flex-direction:column;
@@ -128,4 +128,53 @@ body::before{
     font-weight: 700;
     margin-left: 20px;
     margin-top: 10px;
+}
+
+
+@media  (max-width: 991px){
+    .top-banner{
+        background-color: rgba(17, 17, 17, 0.9);
+        position: relative;
+        width: 100%;
+        height: 100px;
+        padding: 0px 0;
+        color: white;
+        text-align: center;
+    }
+    .top-banner h1{
+        font-size:56px;
+        letter-spacing: 2px;
+        font-weight: 900;
+    }
+    .personal-info h3{
+        text-align: center;
+        border-bottom: 1px solid orange;
+    }
+    .personal-info{
+        position: relative;
+        /* background-color: purple; */
+    }
+    .inner-personal-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info{
+        /* height: 1000px; */
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .personal-overview{
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 30px;
+        left: 0;
+    }
+    .part-1 li:last-child{
+        padding: 45px 0;
+    }
+
 }
